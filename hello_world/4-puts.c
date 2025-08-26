@@ -1,4 +1,11 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Description: Prints a messages using puts
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void) 
 {
