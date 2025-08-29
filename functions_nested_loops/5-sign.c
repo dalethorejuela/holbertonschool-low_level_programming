@@ -2,7 +2,6 @@
 
 /**
  * print_sign - prints the sign of a number
- * The number to be checked
  *
  * Return: 1 if n is greater than zero,
  *         0 if n is zero,
