@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * swap_int - Intercambia los valores de dos enteros.
- * @a: Puntero al primer entero.
- * @b: Puntero al segundo entero.
+ * swap_int - Changes value of int.
+ * @a: Pointer to first int.
+ * @b: Pointer to second int.
  *
- * Return: Nada.
+ * Return: N
  */
 void swap_int(int *a, int *b)
 {
