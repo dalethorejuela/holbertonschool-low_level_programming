@@ -1,16 +1,13 @@
 #include "main.h"
 
 /**
- * _strcmp - Compares two strings
- * @s1: First string
- * @s2: Second string
+ * _strcmp - Compara dos cadenas de caracteres
+ * @s1: primera cadena
+ * @s2: segunda cadena
  *
- * Description: Works exactly like strcmp.
- * Compares s1 and s2 character by character.
- *
- * Return: 0 if strings are equal,
- * a negative value if s1 < s2,
- * a positive value if s1 > s2
+ * Return: 0 si las cadenas son iguales,
+ * un número negativo si s1 < s2,
+ * un número positivo si s1 > s2
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -24,6 +21,5 @@ int _strcmp(char *s1, char *s2)
 		}
 		i++;
 	}
-
 	return (s1[i] - s2[i]);
 }
