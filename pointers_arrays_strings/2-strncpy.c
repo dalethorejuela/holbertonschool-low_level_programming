@@ -9,7 +9,7 @@
  * Description: Works exactly like strncpy.
  * If src is less than n characters long, the remainder of dest
  * is filled with '\0' characters.
- * Otherwise, dest is not null-terminated if src has n or more characters.
+ * If src has n or more characters, dest will not be null-terminated.
  *
  * Return: Pointer to destination string
  */
